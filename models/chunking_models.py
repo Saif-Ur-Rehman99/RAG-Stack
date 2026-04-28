@@ -4,8 +4,6 @@ from models.ovm import VectorBaseDocument
 from RAG.base.constants import DataCategory
 
 
-
-# Chunking Data Models
 class Chunk(VectorBaseDocument, ABC):
     """
     Base class for all chunked document types.
@@ -26,6 +24,7 @@ class PDFChunk(Chunk):
     pdf: str | None = None
     class Config:
         category = DataCategory.PDF
+
 
 # class ImageChunk(Chunk):
 #     image: Optional[str] = None
