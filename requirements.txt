@@ -1,0 +1,17 @@
+PyMuPDF
+tqdm
+pymongo
+pydantic
+pydantic_settings
+zenml
+zenml[server]
+transformers
+sentence-transformers
+qdrant-client
+fastembed
+langchain
+langchain-core
+langchain-community
+
+
+openai
